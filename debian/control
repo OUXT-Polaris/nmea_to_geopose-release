@@ -1,0 +1,12 @@
+Source: ros-kinetic-nmea-to-geopose
+Section: misc
+Priority: extra
+Maintainer: Masaya Kataoka <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libgoogle-glog-dev, ros-kinetic-catkin, ros-kinetic-geodesy, ros-kinetic-geographic-msgs, ros-kinetic-nmea-msgs, ros-kinetic-quaternion-operation, ros-kinetic-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nmea-to-geopose
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libgoogle-glog-dev, ros-kinetic-geodesy, ros-kinetic-geographic-msgs, ros-kinetic-nmea-msgs, ros-kinetic-quaternion-operation, ros-kinetic-roscpp
+Description: The nmea_to_geopose package
